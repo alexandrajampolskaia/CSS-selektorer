@@ -1,0 +1,16 @@
+.svartrektangel{
+    margin: auto;
+    width: 70%;
+    background-color: black;
+    height: 100px;
+  }
+  
+  .inutirektangel{
+    margin:auto;
+    width: 50%;
+    border: 5px solid white;
+    height: 50px;
+    position: fixed;
+    top: 28px;
+    left:108px
+  }
