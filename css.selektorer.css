@@ -1,14 +1,27 @@
 .svartrektangel{
-    margin: auto;
-    width: 70%;
-    background-color: black;
-    height: 100px;
-  }
-  
-  .inutirektangel{
-    margin:auto;
-    width: 50%;
-    border: 5px solid white;
-    height: 50px;
-    position: fixed;
-  }
+  margin: auto;
+  width: 70%;
+  background-color: black;
+  height: 100px;
+}
+
+.vitrektangel{
+  position: fixed; /* or absolute */
+  top: 60px;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 60%;
+  border: 5px solid white;
+  height: 50px;
+}
+
+.gronrektangel{
+  position: relative;
+  top: -580%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 56%;
+  border: 5px solid green;
+  height: 50px;
+}
